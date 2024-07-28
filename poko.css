@@ -39,7 +39,7 @@ body {
 	/* border-bottom: 1px solid rgba(255, 255, 255, 0.14); */
 	position: fixed;
 	height: 6em;
-	background-color: green;
+	background-color: #EFB500;
 	align-items: center;
 	display: flex;
 	z-index: 3;
@@ -294,10 +294,8 @@ main {
 .main-text span {
 	font-size: clamp(1rem, 8vw - 2rem, 3rem);
 	font-family: snart;
-	text-decoration: line-through;
 	color: white;
 	line-height: 1.4rem;
-	text-decoration-color: red;
 	margin-bottom: 2rem;
 	text-decoration-thickness: 3px;
 }
@@ -333,7 +331,7 @@ h1.bold-text {
 	display: inline-block;
 	position: relative;
 	/* padding: 0px 30px; */
-	width: 200px;
+	width: 250px;
 	height: 50px;
 	display: flex;
 	text-align: center;
@@ -1279,11 +1277,12 @@ img.right-img {
 		padding: 1rem 1.7rem;
 		display: flex;
 		justify-content: center;
+		background-color: #EFB500;
 	}
 
 	.main-text span{
-		text-decoration: line-through;
-		text-decoration-thickness: 5px;
+		/* text-decoration: line-through; */
+		/* text-decoration-thickness: 5px; */
 		line-height: 3rem;
 		/* background-color: #7bb436; */
 		/* font-family: snart; */
@@ -1611,7 +1610,7 @@ img.right-img {
 		margin-top: 15rem;
 	}
 	.main-text span {
-		font-size: clamp(1rem, 8vw - 2rem, 2rem);
+		font-size: 3rem;
 		/* font-family: snart; */
 	}
 	.sect-cont {
